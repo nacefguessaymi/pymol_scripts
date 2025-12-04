@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Nacef Guessaymi <nacefguess@hotmail.com>"]
+channels = ["conda-forge", "schrodinger"]
+name = "pymol_scripts"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ruff = ">=0.14.7,<0.15"
